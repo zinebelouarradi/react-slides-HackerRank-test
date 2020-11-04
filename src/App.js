@@ -48,6 +48,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+       <h8k-navbar header={title}></h8k-navbar>
         <Slides
           prevSlide={this.prevSlide}
           nextSlide={this.nextSlide}
